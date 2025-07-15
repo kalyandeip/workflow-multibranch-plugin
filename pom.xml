@@ -54,6 +54,7 @@
   </pluginRepository>
 </pluginRepositories>
 
+
   <dependencies>
     <!-- Example dependencies -->
     <dependency>
