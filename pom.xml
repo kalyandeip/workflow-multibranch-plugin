@@ -40,12 +40,19 @@
     <plugin.firstClassLoader>true</plugin.firstClassLoader>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>jenkins</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
-    </repository>
-  </repositories>
+ <repositories>
+  <repository>
+    <id>jenkins</id>
+    <url>https://repo.jenkins-ci.org/public/</url>
+  </repository>
+</repositories>
+
+<pluginRepositories>
+  <pluginRepository>
+    <id>jenkins</id>
+    <url>https://repo.jenkins-ci.org/public/</url>
+  </pluginRepository>
+</pluginRepositories>
 
   <dependencies>
     <!-- Example dependencies -->
